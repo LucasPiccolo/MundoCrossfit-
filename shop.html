@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Shop Online</title>
+</head>
+
+
+<body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.jpeg" alt="Logo Mundo Crossfit" class="logo-img"></img></a>
+      </div>
+      <div class="div-boton-menu">
+        <button class="boton-menu" id="mostrarMenu">MENU</button>
+      </div>
+      <nav>
+        <div class="contenedor-nav">
+          <ul class="lista-navegador">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="noticias.html">NOTICIAS</a></li>
+              <li><a href="historia.html">HISTORIA DE LOS JUEGOS</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+   
+
+  <article>
+    <h1>Catalogo</h1>
+      <div class="caja-catalogo">
+       
+        <div class="catalogo-fila">
+          <div class="img-catalogo">
+            <figure><img src="images/barra15.jpg" alt="barra-femenina"></figure>
+            <figcaption class="fig-caption-class">Barra Olimpica 15 KG</figcaption>
+          </div>
+
+          <div class="img-catalogo">
+            <figure><img src="images/barra20.jpg" alt="barra-masculina"></figure>
+            <figcaption class="fig-caption-class">Barra Olimpica 20 KG</figcaption>
+          </div>
+
+          <div class="img-catalogo">
+             <figure><img src="images/bumpers.jpg" alt="discos-bumpers"></figure>
+              <figcaption class="fig-caption-class">Discos Bumpers</figcaption>
+          </div>
+        </div>
+        
+        <div class="catalogo-fila">
+          <div class="img-catalogo">
+              <figure><img src="images/colchos.jpg" alt="colchonetas"></figure>
+              <figcaption class="fig-caption-class">Colchonetas</figcaption>
+          </div>
+
+          <div class="img-catalogo">
+            <figure><img src="images/speedropes.jpg" alt="Sogas para saltar"></figure>
+              <figcaption class="fig-caption-class">Speed Ropes</figcaption>
+          </div>
+
+          <div class="img-catalogo">
+            <figure><img src="images/pesarusa.jpg" alt="pesa rusa"></figure>
+            <figcaption class="fig-caption-class">Kettlebell</figcaption>
+          </div>
+        </div>
+         
+      </div>
+  </article>
+
+  <aside class="box-aside-shop">
+      <div>
+      <div class="table-shop">
+        <table id="table">
+        <thead id="titulos">
+          <tr>
+            <td>PRODUCTO</td>
+            <td>CANTIDAD</td>
+            <td>COLOR</td>       
+          </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+      </table>
+      </div>
+
+      <div class="form-shop">
+        <form id="reset" class="form-shop" >
+          <div class="inputs-shop">
+            <label for="producto" >PRODUCTO</label>
+            <input type="text" name="producto" id="producto" required>
+            <label for="cantidad" >CANTIDAD</label>
+            <input type="number" name="cantidad" id="cantidad" required>
+            <label for="color"  >COLOR</label>
+            <input type="text" name="color" value="" id="color" required>
+          </div>
+        
+        <div>
+            <button type="button" id="btn-comprar" >Comprar 1</button>
+            <button type="button" id="btn-comprar3" >Comprar 3</button>
+            <button type="button" id="btn-borrar" >Borrar</button>
+            <button type="button" id="btn-vaciar" >Vaciar</button>
+        </div>
+    
+      </form>
+      </div>
+    
+  </div>
+  </aside>
+  
+
+  <footer>
+    <table id="tableF">
+      <!-- Fila de tabla -->
+      <tr>
+        <!-- Encabezado de tabla -->
+        <th>Accesos Rápidos</th>
+        <th>Envianos tus noticias y las publicamos.</th>
+        <th>Seguinos</th>
+      </tr>
+      <tr>
+        <!-- dato de la celda -->
+        <td><p><a href="noticias.html">Noticias</a></p></td>
+        <td><p>Email: redaccionMC@gmail.com</p></td>
+        <td><p><a href="http://www.facebook.com/mundocrossfit" target="_blank" alt="Facebook">Facebook</p></a></td>   
+      </tr>     
+      <tr>
+        <td><p><a href="historia.html">Historia de los  Games</a></p></td>
+        <td></td>
+        <td><a href="http://www.instagram.com/mundocrossfit" target="_blank" alt="Instagram"><p>Instagram</p></a></td>
+      </tr>
+    </table>
+  </footer>
+  <script type="text/javascript" src="js/shop.js"></script>
+  <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
